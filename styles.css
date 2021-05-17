@@ -32,7 +32,7 @@ p {
     
 }
 .contenedor {
-    margin: 5rem auto;
+    margin: 4rem auto;
     padding: 2rem;
     width: 40rem;
     background-color: var(--primario);
@@ -68,11 +68,24 @@ p {
 
 .numeroPiso {
     border: none;
-    width: 8rem;
+    width: 5rem;
     font-size: 4rem;
-    margin-left: 2rem;
+    align-items: center;
+    margin: 0;
 }
+
+.numeroPiso_depto {
+    width: 2.5rem;
+}
+
 /* BOTONES TECLADO */
+.indicacion {
+    grid-column: 1/4;
+    font-size: 2rem;
+    text-align: center;
+    font-style: italic;
+}
+
 .contenedor__botones {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
