@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portero</title>
+    <link rel="preconnet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="/Portero/js/Visor.js" type="text/JavaScript"></script>
+</head>
+<body>
+
+    <main class="contenedor">
+       <div class="contenedor__visores">
+            <div class="visor__piso">
+                <h1>Piso:</h1>
+                <input type="text" name="valor1" class="numeroPiso" id="piso" readonly>
+            </div>
+            <div class="visor__depto" id="depto">
+                <h1 id="depto">Depto:</h1>
+                <input type="text" name="valor2" class="numeroPiso" readonly>
+            </div>
+        </div>
+        <div class="contenedor__botones">
+            <button class="boton boton1" id="1">1</button>
+            <button class="boton boton2" id="2">2</button>
+            <button class="boton boton3" id="3">3</button>
+            <button class="boton boton4" id="4">4</button>
+            <button class="boton boton5" id="5">5</button>
+            <button class="boton boton6" id="6">6</button>
+            <button class="boton boton7" id="7">7</button>
+            <button class="boton boton8" id="8">8</button>
+            <button class="boton boton9" id="9">9</button>
+            <button class="boton__llamar" id="llamar" onclick="llamar()">Llamar</button>
+            <button class="boton boton0" id="0">0</button>
+            <button class="boton__borrar" id="borrar" onclick="borrar()">Borrar</button>
+            <div class="mensaje">
+                
+            </div>
+        </div>
+        
+    </main>
+    
+    <script src="/Portero/js/index.js"></script>
+</body>
+</html>
